@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 
 #   CONEXION Y DESCONEXION A MYSQL
-def conectar():
+""" def conectar():
     # Configuración de la conexión
     config = {
         'user': 'tu_usuario',
@@ -35,7 +35,7 @@ def desconectar(conexion):
         conexion.close()
         print("Conexión cerrada correctamente")
     except mysql.connector.Error as err:
-        print(f"Error al cerrar la conexión: {err}")
+        print(f"Error al cerrar la conexión: {err}") """
 # Ejemplo de uso
 #   conexion_bd = conectar()
     # Realizar operaciones con la base de datos
